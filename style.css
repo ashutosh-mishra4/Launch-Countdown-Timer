@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("images/bg-stars.svg");
+    background-color:hsl(234, 17%, 12%);
+    background-repeat: no-repeat;
+
+}
+
+/* Styling the Announcement Text*/
+.announcement {
+    font-family: 'Red Hat Text', sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    padding: 5rem 0 5rem 0;
+}
+
+/*Styling the time containers*/
+.container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.time{
+    height: 2em;
+    width: 9vw;
+    border-radius: 10%;
+    color: hsl(345, 95%, 68%);
+    background-color: hsl(236, 21%, 26%);
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+    text-align: center;
+    box-shadow: 0 10px black;
+}
+#days, #hours, #minutes, #seconds  {
+    padding-top: 14%;
+}
+
+/*Styling the text below time container*/
+.time-info{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: 700;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: .4vw;
+    padding-top: 35px;
+}
+
+/*Styling the social icons*/
+.social{
+    display:flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 6%;   
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("images/pattern-hills.svg"); 
+    background-size: cover;
+    height: 180px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.facebook:active{
+    color:hsl(345, 95%, 68%);
+}
+.attribution{
+    margin-top: 2%;
+    font-family: 'Red Hat Text', sans-serif;
+}
